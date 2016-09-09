@@ -6,7 +6,7 @@ RUN mkdir /app
 
 WORKDIR /app
 
-COPY .ctags /.ctags
+COPY ctags /.ctags
 
 COPY entrypoint.sh /entrypoint.sh
 
